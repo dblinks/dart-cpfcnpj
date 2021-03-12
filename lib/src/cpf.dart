@@ -1,7 +1,7 @@
 class CPF {
   // Formatar número de CPF
   static String format(String cpf) {
-    if (cpf == null) return null;
+    if (cpf == null) return '';
 
     // Obter somente os números do CPF
     var numeros = cpf.replaceAll(RegExp(r'[^0-9]'), '');
@@ -14,7 +14,7 @@ class CPF {
   }
 
   // Validar número de CPF
-  static bool isValid(String cpf) {
+  static bool isValid(String? cpf) {
     if (cpf == null) return false;
 
     // Obter somente os números do CPF

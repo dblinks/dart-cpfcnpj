@@ -1,7 +1,7 @@
 class CNPJ {
   // Formatar número de CNPJ
   static String format(String cnpj) {
-    if (cnpj == null) return null;
+    if (cnpj == null) return '';
 
     // Obter somente os números do CNPJ
     var numeros = cnpj.replaceAll(RegExp(r'[^0-9]'), '');
@@ -14,7 +14,7 @@ class CNPJ {
   }
 
   // Validar número de CNPJ
-  static bool isValid(String cnpj) {
+  static bool isValid(String? cnpj) {
     if (cnpj == null) return false;
 
     // Obter somente os números do CNPJ

@@ -5,7 +5,7 @@ homepage: https://github.com/thiagopereiramartinez/dart-cpfcnpj
 author: Thiago P. Martinez <thiago.pereira.ti@gmail.com>
 
 environment:
-  sdk: '>=2.5.0 <3.0.0'
+  sdk: '>=2.12.0 <3.0.0'
 
 #dependencies:
 #  path: ^1.6.0
