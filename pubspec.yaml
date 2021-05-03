@@ -1,6 +1,6 @@
 name: cpfcnpj
 description: An easy-to-use utility for CPF/CNPJ validation and formatting.
-version: 1.0.3
+version: 2.0.0
 homepage: https://github.com/thiagopereiramartinez/dart-cpfcnpj
 author: Thiago P. Martinez <thiago.pereira.ti@gmail.com>
 
